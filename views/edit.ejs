@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Username</title>
+    <style>
+        .container{
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>You are anout to edit this user : <%= user.email %></h2>
+    <div class="container">
+        <form method="POST" action="/users/<%= user.id %>?_method=PATCH">
+            <textarea rows="5" cols="35" name="username" placeholder="Change your name..." style="text-align: center;"><%= user.username %></textarea>
+            <br>
+            <br>
+            <input type="password" name="password" placeholder="Enter your password..." style="text-align: center;">
+            <br>
+            <br>
+            <button>Edit</button>
+            <br><br><br><br><br><br><br><br>
+            <button type="button" onclick="seePassword()">See Password</button>
+        </form>
+    </div>
+    <script>
+        function seePassword() {
+            fetch('/users/<%= user.id %>/password')
+                .then(response => response.text())
+                .then(data => alert(data))
+                .catch(err => alert("Error: " + err));
+        }
+    </script>
+</body>
+</html>
