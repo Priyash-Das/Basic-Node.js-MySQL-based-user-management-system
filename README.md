@@ -19,7 +19,7 @@ A Node.js + MySQL based user management system with CRUD functionality, using EJ
 
 ## 📽️ Demo Video
 
-Watch the demo: [![Demo Video](https://img.shields.io/badge/Watch-Video-blue)](https://your-demo-link-here.com)
+👉 [Watch the demo]()
 
 ## 📁 Project Structure
 
