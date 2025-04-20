@@ -10,8 +10,8 @@ const port = 8080;
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    database: 'delta_app',
-    password: 'Priyash@2003'
+    database: 'X_app',
+    password: 'XXXXXXXXXXXX'
 });
 
 app.set('view engine', 'ejs');
