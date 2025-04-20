@@ -2,6 +2,10 @@
 
 A Node.js + MySQL based user management system with CRUD functionality, using EJS, and fake user generation via Faker.js.
 
+## 📽️ Demo Video
+
+👉 [Watch the demo]()
+
 ## 🚀 Project Overview
 
 **DeltaUserManager** is a web application that allows you to:
@@ -16,10 +20,6 @@ A Node.js + MySQL based user management system with CRUD functionality, using EJ
 - **Templating engine**: EJS
 - **Method override** for supporting PATCH in forms
 - Clean routing with Express.js
-
-## 📽️ Demo Video
-
-👉 [Watch the demo]()
 
 ## 📁 Project Structure
 
