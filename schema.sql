@@ -1,5 +1,5 @@
--- create database delta_app;
--- use delta_app;
+-- create database X_app;
+-- use X_app;
 -- create table temp(id int primary key);
 -- SET SQL_SAFE_UPDATES = 0;
 
