@@ -1,7 +1,7 @@
 {
   "name": "node-with-sql",
   "version": "1.0.0",
-  "description": "SQL Class with Node",
+  "description": "Basic Node.js + MySQL based user management system",
   "license": "ISC",
   "author": "Priyash Das",
   "type": "commonjs",
