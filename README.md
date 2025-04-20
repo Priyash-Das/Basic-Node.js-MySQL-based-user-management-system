@@ -1,4 +1,4 @@
-# Basic Node.js + MySQL based user management system
+# Basic Node with MySQL
 
 A Node.js + MySQL based user management system with CRUD functionality, using EJS, and fake user generation via Faker.js.
 
