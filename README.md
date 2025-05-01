@@ -5,9 +5,9 @@ A Node.js + MySQL based user management system with CRUD functionality, using EJ
 
 ## 📷 Preview
 
-![Node with MySQL]()
+![Node with MySQL](https://github.com/Priyash-Das/Photos/blob/main/Basic%20NodeJS%20%26%20MySQL%20based%20user%20management%20system.png)
 
-## 📽️ Demo Video
+## 📽️ Demo Video (MAIN)
 
 👉 [Watch the demo](https://github.com/Priyash-Das/Photos/blob/main/Basic%20Node.js%20%2B%20MySQL%20based%20user%20management%20system.mkv)
 
